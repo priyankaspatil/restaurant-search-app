@@ -24,7 +24,6 @@ const ResultsList = ({ title, results }) => {
         data={results}
         keyExtractor={(result) => result.id}
         renderItem={({ item }) => {
-          console.log("Result List item ---------->>>>", item);
           return (
             <TouchableOpacity
               onPress={() =>

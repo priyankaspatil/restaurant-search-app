@@ -43,9 +43,7 @@ export const ResultsProvider = ({ children }) => {
   const [state, dispatch] = useReducer(resultsReducer, initialState);
 
   const handleSearchterm = async (searchTerm) => {
-    console.log("searchterm", searchTerm);
     try {
-      console.log("handleSearchterm try");
       const response = await helper.get("/businesses/search", {
         payload: {
           term: searchTerm,
@@ -88,7 +86,6 @@ export const ResultsProvider = ({ children }) => {
   };
 
   const handleFetchResults = async () => {
-    console.log("handleFetchResults");
     const response = await helper.get("/businesses");
     dispatch({
       type: "fetch_results",

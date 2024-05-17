@@ -1,9 +1,9 @@
 import { useEffect, useContext } from "react";
-import { Context } from "../context/ResultsContext";
+import ResultsContext from "../context/ResultsContext";
 
 export default () => {
   const { data, handleSearchterm, handleSetTerm, handleFetchResultsById } =
-    useContext(Context);
+    useContext(ResultsContext);
 
   const { term, results, errorMessage, loading } = data;
 
