@@ -4,19 +4,25 @@ import SearchBar from "../components/SearchBar";
 import ResultsContext from "../context/ResultsContext";
 import ResultsList from "../components/ResultsList";
 
-const SearchScreen = () => {
+const SearchScreen = ({ navigation }) => {
   const { data, handleSearchterm, handleSetTerm, handleFetchResults } =
     useContext(ResultsContext);
   const { term, results, errorMessage } = data;
 
   const filterResultsByPrice = (price) => {
     //price === '$' || '$$' || '$$$'
-    return results.filter((result) => result.price === price);
+    return results?.filter((result) => result?.price === price);
   };
 
   useEffect(() => {
+    const unsubscribe = navigation.addListener("focus", () => {
+      handleFetchResults();
+    });
+
     handleFetchResults();
-  }, []);
+
+    return unsubscribe;
+  }, [navigation]);
 
   return (
     <>

@@ -45,12 +45,13 @@ export const ResultsProvider = ({ children }) => {
   const handleSearchterm = async (searchTerm) => {
     try {
       const response = await helper.get("/businesses/search", {
-        payload: {
+        params: {
           term: searchTerm,
           limit: 50,
           location: "san jose",
         },
       });
+
       dispatch({
         type: "fetch_results",
         payload: { businesses: response.data.businesses },
@@ -75,7 +76,7 @@ export const ResultsProvider = ({ children }) => {
       const response = await helper.get(`/businesses/${id}`);
       dispatch({
         type: "fetch_results",
-        payload: { businesses: [response.data] },
+        payload: { businesses: response.data },
       });
     } catch (err) {
       dispatch({
@@ -86,11 +87,15 @@ export const ResultsProvider = ({ children }) => {
   };
 
   const handleFetchResults = async () => {
-    const response = await helper.get("/businesses");
-    dispatch({
-      type: "fetch_results",
-      payload: { businesses: response.data },
-    });
+    try {
+      const response = await helper.get("/businesses");
+      dispatch({
+        type: "fetch_results",
+        payload: { businesses: response.data },
+      });
+    } catch (err) {
+      console.log("fetching results failed.");
+    }
   };
 
   return (
