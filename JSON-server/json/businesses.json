@@ -1,0 +1,95 @@
+{
+  "businesses": [
+    {
+      "id": "1",
+      "rating": 4,
+      "price": "$",
+      "name": "Four Barrel Coffee",
+      "review_count": 2738,
+      "image_url": "https://w7.pngwing.com/pngs/774/438/png-transparent-coffee-bean-cafe-creative-coffee-shop-logo-free-logo-design-template-poster-logo-vector-thumbnail.png",
+      "photos": [
+        "https://www.gridlockcoffee.com.au/resources/30b3e6e1/blog-post/post-52/post.png?20240509234036210+1000",
+        "https://static.vecteezy.com/system/resources/previews/028/272/892/non_2x/a-cup-of-coffee-with-book-and-pen-on-the-wooden-table-ai-generated-free-photo.jpg",
+        "https://media.cntraveller.com/photos/611bf609623b149193c8d4ab/16:9/w_2560%2Cc_limit/flight-board-boxkite-coffee-east-village-new-york-conde-nast-traveller-5may15-Paul-Wagtouicz.jpg"
+      ]
+    },
+    {
+      "id": "2",
+      "rating": 4,
+      "price": "$",
+      "name": "The Coffee Cafe",
+      "review_count": 173,
+      "image_url": "https://c8.alamy.com/comp/2A4KX92/vector-logo-for-coffee-shop-black-signboard-with-brown-porcelain-cup-with-hot-drink-espresso-on-saucer-original-brush-typeface-for-words-coffee-shop-2A4KX92.jpg",
+      "photos": [
+        "https://en.pimg.jp/107/240/616/1/107240616.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSquXKvUHYnlHTKppPNVee9onbsQXCR5k8MIzJHdp7HMFJBF9fytYM6gudKsXQwetFUve8&usqp=CAU",
+        "https://cdn2.vectorstock.com/i/1000x1000/89/71/abstract-coffee-shop-logo-vector-21838971.jpg"
+      ]
+    },
+    {
+      "id": "3",
+      "rating": 3,
+      "price": "$",
+      "name": "Brue Coffee",
+      "review_count": 738,
+      "image_url": "https://c0.klipartz.com/pngpicture/966/876/gratis-png-taza-de-te-de-ceramica-blanca-y-gris-con-superposicion-de-texto-pizza-restaurante-de-cafeteria-de-cocina-italiana-cartel-de-cafe-thumbnail.png",
+      "photos": [
+        "https://png.pngtree.com/template/20210318/ourmid/pngtree-abstract-minimalistic-shape-food-menu-restaurant-poster-template-image_501104.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZh6woNzm0f3WsXe4y-hRQVTMrLyzasSH5plvYZlKwig&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQsO9wHWwpbnDcvNEvMwRp5S9kZULP-fmFh_U38UFH6A&s"
+      ]
+    },
+    {
+      "id": "4",
+      "rating": 4,
+      "price": "$$",
+      "name": "Gary Danko",
+      "review_count": 2738,
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIIiX7OyOoRBDxQL5Se4oJQeEY5DzHWp1mJfwIUWtXFA&s",
+      "photos": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYXw3aWSZSXDgBzxHuPrYTTudUeeGBHR6H4r2ouvVn7ClXAp3gLpaDPbCX2YCER_57tDE&usqp=CAU",
+        "https://i.pinimg.com/736x/72/c4/8b/72c48ba404d895d21ceb525100b15e93.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN_xVfWZE44HhAYYdtgfwqe02fUjBzqjPki1-sE0qkND_5WOXNPngPh_H7BQYWqr7znRo&usqp=CAU"
+      ]
+    },
+    {
+      "id": "5",
+      "rating": 5,
+      "price": "$$",
+      "name": "Third Wave Coffee",
+      "review_count": 1738,
+      "image_url": "https://png.pngtree.com/png-clipart/20190613/original/pngtree-coffee-posters-png-image_3598557.jpg",
+      "photos": [
+        "https://png.pngtree.com/png-clipart/20200709/original/pngtree-coffee-posters-png-image_3597886.jpg",
+        "https://i.pinimg.com/736x/72/c4/8b/72c48ba404d895d21ceb525100b15e93.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN_xVfWZE44HhAYYdtgfwqe02fUjBzqjPki1-sE0qkND_5WOXNPngPh_H7BQYWqr7znRo&usqp=CAU"
+      ]
+    },
+    {
+      "id": "6",
+      "rating": 5,
+      "price": "$$",
+      "name": "Starbucks Coffee",
+      "review_count": 1738,
+      "image_url": "https://pngfre.com/wp-content/uploads/Starbucks-2.png",
+      "photos": [
+        "https://png.pngtree.com/png-vector/20230814/ourmid/pngtree-the-starbucks-sticker-with-smiling-coffee-in-it-clipart-vector-png-image_6902998.png",
+        "https://png.pngtree.com/png-vector/20230814/ourmid/pngtree-starbucks-sticker-vector-png-image_6902995.png",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV9yD7iIyzc4gNCZN5uSmgkbW1nBGKP3BKByceRPoDSH8ySS5iyUyci_FWq88Q89M4QDE&usqp=CAU"
+      ]
+    },
+    {
+      "id": "7",
+      "rating": 4,
+      "price": "$$$",
+      "name": "McDonald's",
+      "review_count": 173,
+      "image_url": "https://www.ajwallpaper.com.au/cdn/shop/products/1_01ad789b-15cd-4901-b988-8b60a220828e.jpg?v=1632143275",
+      "photos": [
+        "https://img.lazcdn.com/g/p/69d25ad36a2af4e062771f20636193fd.jpg_720x720q80.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWp4rPEcUBd1XBvLPgHR0BeRwL5MOyCEX-JXq-PsWlbmD0qWNzXeSsYtuVrFthV6TzqZo&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3pzDv1IyYHg-umlUPHZcLg_gsQCejR5aOmTELu5rATxW7fd5NZ9nb_4D2KUU663SujyM&usqp=CAU"
+      ]
+    }
+  ]
+}

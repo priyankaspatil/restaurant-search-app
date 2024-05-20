@@ -1,0 +1,95 @@
+{
+  "businesses": [
+    {
+      "id": "1",
+      "rating": 4,
+      "price": "$",
+      "name": "Four Barrel Coffee",
+      "review_count": 2738,
+      "image_url": "http://s3-media2.fl.yelpcdn.com/bphoto/MmgtASP3l_t4tPCL1iAsCg/",
+      "photos": [
+        "http://s3-media2.fl.yelpcdn.com/bphoto/MmgtASP3l_t4tPCL1iAsCg/",
+        "http://s3-media2.fl.yelpcdn.com/bphoto/MmgtASP3l_t4tPCL1iAsCg/",
+        "http://s3-media2.fl.yelpcdn.com/bphoto/MmgtASP3l_t4tPCL1iAsCg/"
+      ]
+    },
+    {
+      "id": "2",
+      "rating": 4,
+      "price": "$",
+      "name": "The Coffee Cafe",
+      "review_count": 173,
+      "image_url": "http://s3-media2.fl.yelpcdn.com/bphoto/MmgtASP3l_t4tPCL1iAsCg/",
+      "photos": [
+        "http://s3-media2.fl.yelpcdn.com/bphoto/MmgtASP3l_t4tPCL1iAsCg/",
+        "http://s3-media2.fl.yelpcdn.com/bphoto/MmgtASP3l_t4tPCL1iAsCg/",
+        "http://s3-media2.fl.yelpcdn.com/bphoto/MmgtASP3l_t4tPCL1iAsCg/"
+      ]
+    },
+    {
+      "id": "3",
+      "rating": 3,
+      "price": "$",
+      "name": "Brue Coffee",
+      "review_count": 738,
+      "image_url": "http://s3-media2.fl.yelpcdn.com/bphoto/MmgtASP3l_t4tPCL1iAsCg/",
+      "photos": [
+        "http://s3-media2.fl.yelpcdn.com/bphoto/MmgtASP3l_t4tPCL1iAsCg/",
+        "http://s3-media2.fl.yelpcdn.com/bphoto/MmgtASP3l_t4tPCL1iAsCg/",
+        "http://s3-media2.fl.yelpcdn.com/bphoto/MmgtASP3l_t4tPCL1iAsCg/"
+      ]
+    },
+    {
+      "id": "4",
+      "rating": 4,
+      "price": "$$",
+      "name": "Gary Danko",
+      "review_count": 2738,
+      "image_url": "http://s3-media2.fl.yelpcdn.com/bphoto/MmgtASP3l_t4tPCL1iAsCg/",
+      "photos": [
+        "http://s3-media2.fl.yelpcdn.com/bphoto/MmgtASP3l_t4tPCL1iAsCg/",
+        "http://s3-media2.fl.yelpcdn.com/bphoto/MmgtASP3l_t4tPCL1iAsCg/",
+        "http://s3-media2.fl.yelpcdn.com/bphoto/MmgtASP3l_t4tPCL1iAsCg/"
+      ]
+    },
+    {
+      "id": "5",
+      "rating": 5,
+      "price": "$$",
+      "name": "Third Wave Coffee",
+      "review_count": 1738,
+      "image_url": "http://s3-media2.fl.yelpcdn.com/bphoto/MmgtASP3l_t4tPCL1iAsCg/",
+      "photos": [
+        "http://s3-media2.fl.yelpcdn.com/bphoto/MmgtASP3l_t4tPCL1iAsCg/",
+        "http://s3-media2.fl.yelpcdn.com/bphoto/MmgtASP3l_t4tPCL1iAsCg/",
+        "http://s3-media2.fl.yelpcdn.com/bphoto/MmgtASP3l_t4tPCL1iAsCg/"
+      ]
+    },
+    {
+      "id": "6",
+      "rating": 5,
+      "price": "$$",
+      "name": "Starbucks Coffee",
+      "review_count": 1738,
+      "image_url": "http://s3-media2.fl.yelpcdn.com/bphoto/MmgtASP3l_t4tPCL1iAsCg/",
+      "photos": [
+        "http://s3-media2.fl.yelpcdn.com/bphoto/MmgtASP3l_t4tPCL1iAsCg/",
+        "http://s3-media2.fl.yelpcdn.com/bphoto/MmgtASP3l_t4tPCL1iAsCg/",
+        "http://s3-media2.fl.yelpcdn.com/bphoto/MmgtASP3l_t4tPCL1iAsCg/"
+      ]
+    },
+    {
+      "id": "7",
+      "rating": 4,
+      "price": "$$$",
+      "name": "McDonald's",
+      "review_count": 173,
+      "image_url": "http://s3-media2.fl.yelpcdn.com/bphoto/MmgtASP3l_t4tPCL1iAsCg/",
+      "photos": [
+        "http://s3-media2.fl.yelpcdn.com/bphoto/MmgtASP3l_t4tPCL1iAsCg/",
+        "http://s3-media2.fl.yelpcdn.com/bphoto/MmgtASP3l_t4tPCL1iAsCg/",
+        "http://s3-media2.fl.yelpcdn.com/bphoto/MmgtASP3l_t4tPCL1iAsCg/"
+      ]
+    }
+  ]
+}
