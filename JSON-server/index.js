@@ -21,10 +21,8 @@ server.get("/businesses", (req, res) => {
 });
 
 server.get("/businesses/search", (req, res) => {
-  console.log("search");
   try {
-    const searchTerm = req.params.term;
-    console.log(searchTerm);
+    const searchTerm = req.query.term;
     const searchedBusinesses = businessesdb.businesses.filter((business) =>
       business.name.toLowerCase().includes(`${searchTerm}`.toLowerCase())
     );
@@ -41,7 +39,7 @@ server.get("/businesses/:id", (req, res) => {
     );
 
     if (business.length === 1) {
-      res.status(200).json(business[0]);
+      res.status(200).json(business);
     } else {
       res.status(200).json({
         status: 400,
